@@ -23,7 +23,7 @@
 module DSP_mul(clk,init,A_one_init,A_two_init,B_one_init,B_two_init,c_out_1,c_out_2);
 `include"karatsuba_parameter.v"
  input clk;
- //input clk_n,clk_p;
+
  input [N-3:0]A_one_init,A_two_init,B_one_init,B_two_init;
  input init;
  output reg [N-3:0]c_out_1,c_out_2;
